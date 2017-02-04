@@ -1,0 +1,85 @@
+
+
+
+body{
+    background-image: url('screenshots/movie_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+
+
+/*
+body{
+    background-color: black;
+    
+}
+*/
+
+#movieSearch{
+     position: absolute;
+            top:80px;
+            left:500px;
+            width:450px;
+            height:40px;
+            border:solid grey 2px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#searchbutton{
+    position:absolute;
+    top:80px;
+    left:970px;
+    width:85px;
+    height:40px;
+    background-color:#191970;
+    font-weight:bold;
+    color:white;
+    font-size: 13px;
+    border: solid #191970 1px;
+    
+}
+#searchbutton:focus{
+    background:#808080;
+    border:solid grey 1px;
+    box-shadow:none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#movieInfo{
+    position:absolute;
+    top:230px;
+    left:700px;
+/*    width:100px;*/
+    color:whitesmoke;
+    font-size: 25px;
+    line-height:30px;
+ white-space:pre;
+}
+
+
+
+
+#poster{
+    position: absolute;
+    top:190px;
+    left:290px;
+    
+   
+}
+
+#heading{
+    position:absolute;
+    left:650px;
+/*    top:20px;*/
+    font-family: fantasy;
+    color:lightgrey;
+    font-size: 30px;
+    font-stretch:extra-expanded;
+}
+
+#movieInfo span{
+    white-space:pre;
+    color:papayawhip;
+    font-size:22px;
+}
